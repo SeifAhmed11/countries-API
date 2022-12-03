@@ -1,0 +1,137 @@
+body{
+    /* font-family: "Alfa Slab One" sans-serif , Helvetica; */
+    /* font-family: 'Libre Franklin', sans-serif , Helvetica; */
+    font-family: "Roboto" , sans-serif , Helvetica; 
+    scroll-behavior: smooth;
+    overflow-x:hidden;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5% ;
+    background-color: hsl(0, 0%, 100%);
+    border-bottom: solid 0.5px  hsla(0, 2%, 43%, 0.249);
+    font-size: larger;
+} 
+
+header>.name{
+    cursor: pointer;
+    font-weight: 800;
+}
+
+.dark{
+    cursor: pointer;
+    display: flex;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.dark .fa-moon{
+    padding: 4.9px;
+    transform: rotate(-22deg);
+}
+
+.search{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 7% ;
+}
+
+
+div.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: solid 0.5px  hsla(0, 2%, 43%, 0.249);
+    border-left: none;
+    float: right;
+    width: 80%;
+    background: #f1f1f1;
+}
+
+div.example input[type=text]:focus {
+    outline: none;
+}
+
+div.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    color: grey;
+    font-size: 17px;
+    border: solid 0.5px  hsla(0, 2%, 43%, 0.249);
+    border-right: none;
+    cursor: pointer;
+}
+
+div.example button:hover {
+    background: #d5d5d7;
+}
+
+.search>select,
+.search>option{
+    border: solid 0.5px  hsla(0, 2%, 43%, 0.249);
+}
+
+.countries{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 2.5%;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 320px;
+    margin: 1% 2.5%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+.card>img{
+    height: 50%;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.card2{
+    margin: 100px 5%;
+    flex-wrap: wrap;
+    height: 600px;
+}
+
+.container-top{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container-top> .container,
+.container-top> .container2{
+    margin-left: 10%;
+}
+
+
+.button {
+    border: solid 1px  hsla(0, 2%, 43%, 0.249);
+    color: black;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
